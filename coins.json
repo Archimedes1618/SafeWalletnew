@@ -1518,5 +1518,27 @@
       "clientPublic": "https://bsc-dataseed1.binance.org",
       "clientDocs": "https://eth.wiki/json-rpc/API"
     }
+  },
+  {
+    "id": "safecoin",
+    "name": "Safecoin",
+    "coinId": 501,
+    "symbol": "SAFE",
+    "decimals": 9,
+    "blockchain": "Safecoin",
+    "derivationPath": "m/44'/501'/0'",
+    "curve": "ed25519",
+    "publicKeyType": "ed25519",
+    "explorer": {
+      "url": "https://explorer.safecoin.org",
+      "txPath": "/transactions/",
+      "accountPath": "/accounts/"
+    },
+    "info": {
+      "url": "https://safecoin.org",
+      "client": "https://github.com/fair-exchange/safecoin",
+      "clientPublic": "https://api.mainnet-beta.solana.com",
+      "clientDocs": "https://docs.solana.com"
+    }
   }
 ]
